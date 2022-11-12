@@ -32,7 +32,7 @@ nvm install node
 
 2. Using Lens API
 
-Follow the tutorial on https://docs.lens.xyz/docs/developer-quickstart
+Go into the `lens-app` directory and follow the tutorial on https://docs.lens.xyz/docs/developer-quickstart
 
 ## Prizes
 Hack for Better Infrastructure: Sony :headphones:
