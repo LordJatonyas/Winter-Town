@@ -6,7 +6,7 @@ This repository contains the code and materials for Oxford Hack 2022 Winter Edit
 1. Install NVM
 
 First, install or update nvm using *ONE* of the following scripts:
-'''
+'''javascript
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 '''
 '''
