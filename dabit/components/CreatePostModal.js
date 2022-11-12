@@ -29,6 +29,7 @@ export default function CreatePostModal({
     return uri
   }
   async function savePost() {
+    alert(JSON.stringify(profile))
     const contentURI = await uploadToIPFS()
 
     const contract = new ethers.Contract(
