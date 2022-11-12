@@ -4,7 +4,7 @@ import { refreshAuthToken, generateRandomColor } from '../utils'
 
 export const APIURL = "https://api-mumbai.lens.dev"
 export const STORAGE_KEY = "LH_STORAGE_KEY"
-export const LENS_HUB_CONTRACT_ADDRESS = "0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d"
+export const LENS_HUB_CONTRACT_ADDRESS = "0x60Ae865ee4C725cd04353b5AAb364553f56ceF82"
 export const PERIPHERY_CONTRACT_ADDRESS = "0xeff187b4190E551FC25a7fA4dFC6cf7fDeF7194f"
 
 export const basicClient = new createUrqlClient({
