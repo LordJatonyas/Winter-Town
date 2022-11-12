@@ -6,7 +6,7 @@ This repository contains the code and materials for Oxford Hack 2022 Winter Edit
 1. Install NVM
 
 First, install or update nvm using *ONE* of the following scripts:
-```javascript
+```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 *OR*
@@ -18,8 +18,12 @@ You may experience the following when reopening a terminal:
 > Ignore insecure directories and continue [y] or abort compinit [n]?
 
 To fix this, run the following:
-> sudo chmod -R 755 /usr/local/share/zsh
-> sudo chown -R root:staff /usr/local/share/zsh
+```
+sudo chmod -R 755 /usr/local/share/zsh
+```
+```
+sudo chown -R root:staff /usr/local/share/zsh
+```
 
 After that, install the latest version of node with the following:
 ```
