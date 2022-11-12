@@ -1,6 +1,5 @@
 # Winter Town
-
-This repository contains the code and materials for Oxford Hack 2022 Winter Edition.
+Yes, we promise.
 
 ## Lens Protocol Installation
 1. Install NVM
