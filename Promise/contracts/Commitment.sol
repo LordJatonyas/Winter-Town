@@ -16,17 +16,19 @@ contract Commit {
     mapping(address => uint256[]) _companies;
     mapping(address => uint256[]) _customers;
 
-    using Counters for Counter.Counter;
-    Counter.Counter public _contractIDs;
-
-    event Requested(uint256 contractID);
-    event Canceled();
-    event StateChange(uint256 new_state);
-    event Approve();
-    event BreakUpEvent(bool requested); // true => requested; false => approved
 
     constructor() {
     }
 
-    function commitPayment(address payable customer, address payable charity, uint256 product_price, ufixed commit_percent) public payable {
+    function donate() public payable {
+        (bool success,) = charity.call{value: msg.value}("");
+        require(success, "Failed to send money");
+    }
 
+    function getCommitPayment() view public returns(uint256) {
+        return product_price * commit_percent;
+    }
+
+    function pay() public payable {
+        (bool success,) = 
+    function commitPayment(address payable customer, address payable charity, uint256 product_price, ufixed commit_percent) public payable {
